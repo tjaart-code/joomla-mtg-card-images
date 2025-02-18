@@ -1,0 +1,15 @@
+.card-tooltip {
+  position: absolute;
+  display: none;
+  /* Styling for tooltip container */
+}
+.card-tooltip-content {
+  /* Styling for tooltip content */
+  max-width: 250px; /* Limit the maximum width of the content to 250px */
+  bottom: 100%; /* Position the content above the card link */
+  left: 50%; /* Center horizontally */
+}
+.card-tooltip-content img {
+  max-width: 100%; /* Ensure the card image fits within the content */
+  height: auto; /* Maintain the image's aspect ratio */
+}
